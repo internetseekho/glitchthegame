@@ -1,8 +1,8 @@
 # Learn to code the fun way by making games - Section 8 - Glitch The Game
 
-This is the [Internetseekho](https://internetseekho.com / youtube.com/internetseekhocom) - e-Learning course provided Completely free on youtube also its completely from scratch with brand-new projects and our latest teaching techniques. So what will you achive by following this section you will learn professional game development and how to ship your professional games to the market.
+This is the [Internetseekho](https://internetseekho.com / https://youtube.com/internetseekhocom) - e-Learning course provided Completely free on youtube also its completely from scratch with brand-new projects and our latest teaching techniques. So what will you achive by following this section you will learn professional game development and how to ship your professional games to the market.
 
-You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo. You can check out the course here: [Learn to code the fun way by making games][Internetseekho](https://internetseekho.com / youtube.com/internetseekhocom)
+You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo. You can check out the course here: [Learn to code the fun way by making games][Internetseekho](https://internetseekho.com / https://youtube.com/internetseekhocom)
 
 ## In This Section
 ### Introduction To Glitch The Game ###
