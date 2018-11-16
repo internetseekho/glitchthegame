@@ -8,7 +8,9 @@ public class LevelManager : MonoBehaviour
 
     public void Start()
     {
-        Invoke( "LoadNextLevel", autoLoadLevelTime);    
+        if (autoLoadLevelTime > 0) { 
+            Invoke("LoadNextLevel", autoLoadLevelTime);
+        }
     }
 
     public void LoadLevel(string name)

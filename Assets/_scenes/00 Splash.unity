@@ -140,7 +140,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9d1ec2aace9c762478a5558e6634128e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.08
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -237,47 +237,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &117982271
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 117982273}
-  - component: {fileID: 117982272}
-  m_Layer: 0
-  m_Name: LevelManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &117982272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 117982271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4437d43e953dfe42a7864fbd7220678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoLoadLevelTime: 2
---- !u!4 &117982273
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 117982271}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 397.19998, y: 182.65, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356756226
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +269,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 8300000, guid: 9395f8f85ec9abc4a8c152bd4c1a8b70, type: 3}
   - {fileID: 0}
+  - {fileID: 8300000, guid: 45e3e921b3277aa458101de2c9f011d9, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
 --- !u!4 &356756228
 Transform:
@@ -335,7 +298,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.08
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -799,3 +762,50 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1030210467}
+--- !u!1001 &2073458525
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 397.19998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 182.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697196882810764, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114652566030906610, guid: 81c685d00e56ca142bb571943cf95141,
+        type: 2}
+      propertyPath: autoLoadLevelTime
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 81c685d00e56ca142bb571943cf95141, type: 2}
+  m_IsPrefabParent: 0
